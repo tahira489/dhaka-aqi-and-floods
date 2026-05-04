@@ -1,0 +1,35 @@
+name: Generate Weekly AQI Report
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"   # Every Sunday 00:00 UTC
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate plots
+        run: python weekly_report.py
+
+      - name: Commit plots
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add weekly_plots/
+          git diff --cached --quiet || git commit -m "report: weekly plots $(date -u '+%Y-%m-%d')"
+          git push
