@@ -1,0 +1,2 @@
+datetime_bst,day_of_week,session,city,season,aqi,pm25,pm10,temperature_c,humidity_pct,wind_speed_ms,rainfall_mm_openmeteo,rainfall_mm_owm,rain_event,river_discharge_m3s,flood_event
+2026-05-04 21:49,Monday,Night,Dhaka,Summer,152,152,,30,20,2,0.0,,No,4.87,No
