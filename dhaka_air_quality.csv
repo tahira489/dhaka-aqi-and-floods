@@ -221,3 +221,4 @@ datetime_bst,day_of_week,session,city,season,aqi,pm25,pm10,temperature_c,humidit
 2026-07-17 03:08,Friday,Night,Dhaka,Monsoon,152,152,,30,20,2,0.0,,No,5.67,No
 2026-07-17 16:05,Friday,Afternoon,Dhaka,Monsoon,152,152,,30,20,2,1.5,,Yes,4.11,No
 2026-07-17 21:19,Friday,Night,Dhaka,Monsoon,152,152,,30,20,2,0.0,,No,4.11,No
+2026-07-18 03:01,Saturday,Night,Dhaka,Monsoon,152,152,,30,20,2,0.3,,No,4.11,No
