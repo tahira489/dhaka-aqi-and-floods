@@ -607,3 +607,4 @@ datetime_bst,day_of_week,session,city,season,aqi,pm25,pm10,temperature_c,humidit
 2026-11-23 06:41,Monday,Morning,Dhaka,Post-monsoon,152,152,,30,20,2,0.0,,No,2.48,No
 2026-11-24 02:01,Tuesday,Night,Dhaka,Post-monsoon,152,152,,30,20,2,0.0,,No,2.48,No
 2026-11-24 07:35,Tuesday,Morning,Dhaka,Post-monsoon,152,152,,30,20,2,0.0,,No,2.08,No
+2026-11-24 10:41,Tuesday,Morning,Dhaka,Post-monsoon,152,152,,30,20,2,,,No,2.08,No
